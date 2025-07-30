@@ -35,5 +35,8 @@
   "workspaces": [
     "backend",
     "frontend"
-  ]
+  ],
+  "dependencies": {
+    "nanoid": "^5.1.5"
+  }
 }
