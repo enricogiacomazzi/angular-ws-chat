@@ -4,7 +4,7 @@ import fastifyWs from '@fastify/websocket';
 import type { ZodTypeProvider } from 'fastify-type-provider-zod';
 import { serializerCompiler, validatorCompiler } from 'fastify-type-provider-zod';
 import {createWebSocketStream} from 'ws';
-import { IncomingMessage, Message } from './message';
+import { IncomingMessage } from './message';
 import { nanoid } from 'nanoid'
 import InitStore, {Store} from './store';
 

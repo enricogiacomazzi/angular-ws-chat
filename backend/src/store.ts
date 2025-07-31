@@ -31,9 +31,7 @@ export class Store {
 }
 
 
-async function plugin(app: FastifyInstance, opts: unknown) {    
+
+export default fp(async function (app: FastifyInstance, opts: unknown) {    
     app.decorate('store', new Store(app));
-}
-
-
-export default fp(plugin);
+});
