@@ -1,0 +1,6 @@
+
+
+
+@for (msg of messages(); track msg.timestamp) {
+    <ng-message-item [message]="msg" [username]="username()" />
+}

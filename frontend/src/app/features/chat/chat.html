@@ -1,0 +1,7 @@
+
+
+<div class="container">
+    <ng-navbar />
+    <ng-message-list [messages]="messages()" [username]="username()" />
+    <ng-new-messsage (sendMessage)="sendMessage($event)" />
+</div>

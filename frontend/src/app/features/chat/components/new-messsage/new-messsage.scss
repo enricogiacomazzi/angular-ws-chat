@@ -1,0 +1,17 @@
+
+div {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+
+    i {
+        margin: 0.5rem;
+        color: white;
+    }
+
+    i.disabled {
+        color: #828282
+    }
+}

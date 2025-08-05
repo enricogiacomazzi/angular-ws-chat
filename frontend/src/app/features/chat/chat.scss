@@ -1,0 +1,12 @@
+.container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+
+    ng-message-list {
+        flex-grow: 10; 
+    }
+}
