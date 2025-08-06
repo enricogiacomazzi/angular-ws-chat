@@ -1,4 +1,4 @@
-import { Component, computed, HostBinding, input } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { Message } from '../../../../models/message';
 
 @Component({

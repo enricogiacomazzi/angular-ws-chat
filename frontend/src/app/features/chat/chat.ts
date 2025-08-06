@@ -7,6 +7,7 @@ import { ChatService } from '../../services/chat.service';
 @Component({
   selector: 'ng-chat',
   imports: [Navbar, MessageList, NewMesssage],
+  providers: [ChatService],
   templateUrl: './chat.html',
   styleUrl: './chat.scss',
   
